@@ -10,8 +10,8 @@ env:
   CONTAINER_NAME: sean-container
 
 jobs:
-  build:
-    name: Build
+  cicd:
+    name: Build and Deploy
     runs-on: ubuntu-latest
 
     steps:
